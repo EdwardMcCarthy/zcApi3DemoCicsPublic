@@ -8,7 +8,7 @@ projects:
       checkoutFrom:
         revision: main
       remotes:
-        origin: 'https://github.com/EdwardMcCarthy/zcApi3DemoCics.git'
+        origin: 'https://github.com/EdwardMcCarthy/zcApi3DemoCicsPublic.git'
     name: zcapi3democics
 components:
     - name: zosconnect
