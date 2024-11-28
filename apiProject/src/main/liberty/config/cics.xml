@@ -5,11 +5,11 @@
     </featureManager>
 
     <zosconnect_cicsIpicConnection id="cicsConn" 
-		host="zlpar.com" 
-		port="12345" 
+		host="${CICS_HOST}" 
+		port="${CICS_PORT}" 
 		authDataRef="cicsCredentials"
 		zosConnectApplid="ZC3DSGNA" 
 		zosConnectNetworkid="ZC3DSGNR" />
     
-    <zosconnect_authData id="cicsCredentials" user="uuuuu" password="ppppp"/>
+    <zosconnect_authData id="cicsCredentials" user="${CICS_USER}" password="${CICS_PASSWORD}"/>
 </server>
