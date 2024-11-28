@@ -1,4 +1,4 @@
-schemaVersion: 2.1.0
+schemaVersion: 2.3.0
 metadata:
   name: zcapi3democics
 attributes:
@@ -11,10 +11,6 @@ projects:
           origin: 'https://github.com/EdwardMcCarthy/zcApi3DemoCicsPublic.git'
       name: zcapi3democics
 components:
-    - name: tools
-      container:
-         image: quay.io/devfile/universal-developer-image:ubi8-latest
-         memoryLimit: 3Gi
     - name: zosconnect
       container:
         endpoints:
