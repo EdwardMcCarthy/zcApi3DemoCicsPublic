@@ -1,0 +1,17 @@
+schemaVersion: 2.3.0
+metadata:
+  name: zcapi3democics
+attributes:
+  controller.devfile.io/storage-type: ephemeral
+projects:
+    - git:
+        checkoutFrom:
+          revision: main
+        remotes:
+          origin: 'https://github.com/EdwardMcCarthy/zcApi3DemoCicsPublic.git'
+      name: zcapi3democics
+components:
+    - name: tools
+      container:
+        image: quay.io/devfile/universal-developer-image:ubi8-latest
+        memoryLimit: 3Gi
