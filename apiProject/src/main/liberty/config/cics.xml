@@ -12,7 +12,7 @@
 		zosConnectNetworkid="ZC3DSGNR" />
     
     <zosconnect_authData id="cicsCredentials" user="${CICS_USER}" password="${CICS_PASSWORD}"/>
-	
+	<!-- trace -->
 	  <logging traceSpecification="*=info:com.ibm.zosconnect.ui.*=all:zosConnectCore=all:com.ibm.zosconnect.ui.backend.importers*=FINE" />
 	  
 </server>
