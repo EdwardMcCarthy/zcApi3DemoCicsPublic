@@ -10,9 +10,6 @@ projects:
         remotes:
           origin: 'https://github.com/EdwardMcCarthy/zcApi3DemoCicsPublic.git'
       name: zcapi3democics
-devEnvironments:
-    defaultNamespace:
-       template: <username>-<userid>-zcee-designer-devspaces 
 components:
     - name: tools
       container:
